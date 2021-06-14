@@ -2,21 +2,24 @@
   <div class="container">
     <div id="name-container">
       <img id="avatar" src="./../assets/images/av.png" alt="avatar" />
-      <h1>weijiew</h1>
+      <h1>Wei Jie</h1>
     </div>
     <div class="title-desc-container">
 
       <a id="github" href="https://github.com/weijiew" target="_blank" rel="noopener noreferrer"
         ><img class="title-font" src="./../assets/images/github.svg" />Developer</a
       >
+
       <span>/</span>
-      <a id="blog" href="https://cs.weijiew.com" target="_blank" rel="noopener noreferrer"
+      <a id="blog" href="https://github.com/weijiew/codestep" target="_blank" rel="noopener noreferrer"
         ><img class="title-font" src="./../assets/images/hero.png" />Notes</a
       >
+
       <span>/</span>
       <a id="blog" href="https://blog.weijiew.com" target="_blank" rel="noopener noreferrer"
-        ><img class="title-font" src="./../assets/images/zeit.svg" />Blogger</a
+        ><img class="title-font" src="./../assets/images/zeit.svg" />CV</a
       >
+
     </div>
 
     <div class="article">
@@ -26,7 +29,7 @@
           My Chinese name is <i>Wei Jie</i>, ID is <i>weijiew</i>.
       I am a student of Data Science and Big Data Technology, 
       currently in my junior year (2021). 
-      I am preparing for my graduate exams in 2022, and I like <a href="http://running.weijiew.com"> running </a> and reading. 
+      I am preparing for National Post-graduate Entrance Examination(NPEE) in 2022, and I like <a href="http://running.weijiew.com"> running </a> and reading. 
       </p>
       <p>
       &ensp;&ensp;&ensp;&ensp;
