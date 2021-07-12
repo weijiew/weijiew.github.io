@@ -1,0 +1,182 @@
+---
+navigationLabel: home
+---
+
+import { Link as GatsbyLink } from 'gatsby'
+import { mix } from '@theme-ui/color'
+import { PostCard } from '../components/PostCard'
+import { ProfileInfo } from '../components/ProfileInfo'
+
+<Button
+  as="a"
+  title="View CV"
+  variant="success"
+  href="https://docs.google.com/document/d/17zH4XZAOoIicQtAPraxPwy48UZrogchASAeQjXjlJdM/edit?usp=sharing"
+  target="_blank"
+  rel="noopener"
+  sx={{
+    mr: 2,
+  }}
+>
+  View CV/Resume
+</Button>
+
+<Link
+  title="View CV/PDF"
+  href="https://drive.google.com/file/d/1OH6VR_rqASnqcW6qzdSkvkiLH7SWkesO/view?usp=sharing"
+  target="_blank"
+  rel="noopener"
+>
+  .pdf version
+</Link>
+<Divider />
+<Divider />
+
+## 简介
+
+Well hey there! 👋 I'm Paul and a long long time ago I was a designer but after a few years of pixel pushing I realised
+code is just better! I’ve held various positions in and around advertising and web development in both permanent and
+contract positions since 2005, and I once co-founded and ran an award winning digital production agency called Super
+natural based in London.
+
+<Divider />
+
+## commercial portfolio
+
+For more information about what I do in my day to day job as a contractor feel free to visit my
+[portfolio](http://www.pauliescanlon.io/)
+
+<Button as="a" variant="secondary" href="http://www.pauliescanlon.io/" target="_blank">
+  Visit Portfolio
+</Button>
+
+<Divider />
+<Divider />
+
+<Flex
+  sx={{ flexWrap: 'wrap'}}
+>
+<Box
+  sx={{
+    width: ["100%", "100%", "55%"],
+    mb: 3,
+    pr: [0,0, 4],
+  }}
+>
+
+## contact
+
+<Text>Email</Text>
+<Link href="mailto:jiewei1999@foxmail.com" target="_blank" variant="styles.a" rel="noopener">
+  jiewei1999@foxmail.com
+</Link>
+<Divider />
+
+<Text>GitHub</Text>
+<Link href="https://github.com/PaulieScanlon" target="_blank" variant="styles.a" rel="noopener">
+  https://github.com/weijiew
+</Link>
+
+<Divider />
+<Divider />
+</Box>
+
+<Box
+  sx={{
+    width: ["100%", "100%", "45%"],
+    mb: 3
+  }}
+>
+
+## blog topics
+
+<Divider />
+
+<SourceTags>
+  {(tags) => (
+    <Box>
+      {tags
+        .sort((a, b) => b.percent - a.percent)
+        .map((tag, index) => {
+          const { name, count, percent } = tag
+          return (
+            <Badge
+              key={index}
+              variant="primary"
+              sx={{
+                mr: 2,
+                mb: 2,
+                color: mix('secondary', 'primary', `${index / tags.length}`),
+                borderColor: mix('secondary', 'primary', `${index / tags.length}`),
+              }}
+            >
+              {name}
+            </Badge>
+          )
+        })}
+    </Box>
+  )}
+</SourceTags>
+
+<Divider />
+<Divider />
+
+</Box>
+</Flex>
+
+## latest posts
+
+<Divider />
+
+<SourceList filter="posts">
+  {(posts) => (
+    <Grid
+      sx={{
+        gridTemplateColumns: ['1fr', '1fr', '1fr 1fr'],
+      }}
+    >
+      {posts
+        .filter((edge) => !edge.node.frontmatter.isPrivate)
+        .reduce((posts, post) => {
+          return post.node.frontmatter.pinned ? [post, ...posts] : [...posts, post]
+        }, [])
+        .splice(0, 4)
+        .map((edge, index) => {
+          const {
+            featuredImageUrlSharp,
+            frontmatter: { title, tags, date, dateModified, pinned },
+            excerpt,
+            fields: { slug },
+          } = edge.node
+          return (
+            <PostCard
+              key={index}
+              title={title}
+              featuredImageUrlSharp={featuredImageUrlSharp}
+              tags={tags}
+              date={date}
+              dateModified={dateModified}
+              excerpt={excerpt}
+              slug={slug}
+              pinned={pinned}
+            />
+          )
+        })}
+    </Grid>
+  )}
+</SourceList>
+<Divider />
+<Flex
+  sx={{
+    justifyContent: 'center',
+  }}
+>
+  <Box>
+    <Button as={GatsbyLink} variant="ghost" to="/posts">
+      More posts{' '}
+      <Box as="span" role="img" aria-label="pencil">
+        ✏️
+      </Box>
+    </Button>
+  </Box>
+</Flex>
