@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://paulie.dev/posts/2021/16-2020-summary/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/posts/2021/26-wd-alg/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/posts/2021/27-kmp/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/writing/2021/04/gatsby-cloud-better-faster-greener/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/posts/2021/30-csapp-summary/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/writing/2021/04/mdx-embedded-images/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/writing/2021/04/getting-started-with-gatsby-source-wordpress-choose-your-own-adventure/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/posts/2021/28-alg-summary/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/writing/2021/04/headless-wordpress-future-shapes/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/writing/2021/03/voices-of-gatsby/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/posts/2021/23-os-install/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/posts/2021/24-scala-first/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/posts/2021/22-lsbasi-summary/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/posts/2021/21-the-linux-command-line/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/posts/2021/20-cpp-summary/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/writing/2021/01/bumhub/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/posts/2021/19-data-mining-summary/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/posts/2021/18-my-first-paper/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/posts/2021/17-cs61a-summary/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/posts/2020/14-big-data-summary/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/posts/2020/12-ai-finally/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/posts/2020/11-javase-summary/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/posts/2020/10-library-manage-system/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/posts/2020/9-data-clean/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/posts/2020/8-missing-semester/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/posts/2020/7-wsl-0/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/posts/2020/5-c-prime-plus-summary/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/posts/2020/6-pythonic-summary/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/posts/2020/4-spider-movie/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/posts/2020/3/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/posts/2020/2/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/posts/2020/1/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/posts/2019/1/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/posts/2018/1/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/posts/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/dashboard/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/writing/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+</urlset>
