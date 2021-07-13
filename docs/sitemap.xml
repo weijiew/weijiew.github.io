@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>https://paulie.dev/posts/2021/16-2020-summary/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://paulie.dev/posts/2021/26-wd-alg/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://paulie.dev/posts/2021/27-kmp/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://paulie.dev/writing/2021/04/gatsby-cloud-better-faster-greener/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://paulie.dev/posts/2021/30-csapp-summary/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://paulie.dev/writing/2021/04/mdx-embedded-images/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -10,7 +7,6 @@
 <url> <loc>https://paulie.dev/posts/2021/28-alg-summary/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://paulie.dev/writing/2021/04/headless-wordpress-future-shapes/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://paulie.dev/writing/2021/03/voices-of-gatsby/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://paulie.dev/posts/2021/23-os-install/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://paulie.dev/posts/2021/24-scala-first/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://paulie.dev/posts/2021/22-lsbasi-summary/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://paulie.dev/posts/2021/21-the-linux-command-line/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -34,9 +30,9 @@
 <url> <loc>https://paulie.dev/posts/2020/1/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://paulie.dev/posts/2019/1/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://paulie.dev/posts/2018/1/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://paulie.dev/posts/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://paulie.dev/dashboard/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://paulie.dev/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://paulie.dev/writing/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/dashboard/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/posts/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://paulie.dev/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://paulie.dev/writing/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
